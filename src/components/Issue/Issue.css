@@ -1,0 +1,22 @@
+.issue{
+   border: 1px solid #ccc;
+    margin: 2px;
+    padding: 4px;
+}
+
+.issue-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.issue h3{
+    background-color: white;
+    width: fit-content;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.issue .time > p{
+    width: fit-content !important;
+    color: gray !important;
+}
